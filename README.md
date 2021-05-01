@@ -62,6 +62,11 @@ DELETE /posts/:postId
 #### Update Spesific Post
 ``` bash
 PATCH /posts/:postId
+# Request sample
+# {
+#   "title":"This is my updated post.",
+#   "description":"This is my updated description.",
+# }
 ```
 ## App Info
 
